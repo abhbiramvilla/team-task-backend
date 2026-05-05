@@ -36,4 +36,5 @@ mongoose
   })
   .catch((err) => {
     console.error("Mongo Error ❌", err);
+    console.log("server restart 🔥");
   });
